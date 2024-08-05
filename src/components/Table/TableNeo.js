@@ -20,7 +20,7 @@ const TableNeo = ({ headers, rows }) => {
               {headers.map((header, headerIndex) => (
                 <td key={headerIndex} className="px-6 py-4 text-gray-700">
                   {header === 'Image' && row[header] && (
-                    <img src={row[header].src} alt="avatar" className="w-12 h-12 rounded-full object-cover" />
+                    <img src={row[header]} alt="avatar" className="w-12 h-12 rounded-full object-cover" />
                   )}
                   {header !== 'Image' && row[header]}
                 </td>

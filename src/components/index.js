@@ -18,5 +18,12 @@ export { default as SidebarNeo } from './Sidebar/SidebarNeo';
 export { default as Table } from './Table/Table';
 export { default as TableGlass } from './Table/TableGlass';
 export { default as TableNeo } from './Table/TableNeo';
+export { default as SwitchGlass } from './Switch/SwitchGlass';
+// export { default as SwitchGlass } from './Switch/SwitchGlass';
+// export { default as SwitchGlass } from './Switch/SwitchGlass';
+export { default as PaginationGlass } from './Pagination/PaginationGlass';
+
+
+
 
 
